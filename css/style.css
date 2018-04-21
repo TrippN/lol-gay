@@ -1,0 +1,65 @@
+#video {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.5;
+}
+a{
+  font-weight:bold;
+}
+
+a:link{
+  color: #8080ff;
+  text-decoration:none;
+}
+
+a:visited{
+  color: #8080ff;
+  text-decoration:none;
+}
+a:hover{
+  color: #49e2cf;
+  text-decoration:none;
+}
+
+.links {
+  z-index: 2;
+  font-family: 'Amatic SC', cursive;
+  font-size: 55px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 100;
+  transform: translate(-50%, -50%);
+  -moz-opacity: 0.65;
+  -khtml-opacity: 0.65;
+}
+h1 {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 55px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  opacity: 100;
+  transform: translate(-50%, -50%);
+  -moz-opacity: 0.65;
+  -khtml-opacity: 0.65;
+  z-index: 3;
+  font-size: 137px;
+  -webkit-user-select: none;
+}
+
+  body {
+  background-color:#ffffff;
+  width: 100%;
+  overflow: hidden;
+}
+#constellation {
+  z-index: 3;
+}
